@@ -7,34 +7,34 @@
 
 
 h1 {
-    font-family: var(--font-Alfa-Slab-One);
+    font-family: var(--font-Alpha-slab-one);
     font-weight: normal;
     font-size: 35px;
   }
   
   
   h2 {
-    font-family: var(--font-Alfa-Slab-One);
+    font-family: var(--font-Alpha-slab-one);
     font-weight: normal;
     font-size: 25px;
   }
 
   h3{
-      font-family: var(--font-Alfa-Slab-One);
-      font-weight: normal;
+      font-family: var(--font-Alpha-slab-one);
+      font-weight: bolder;
       font-size: 20px;
   }
   
   h4{
-    font-family: var(--font-mulish);
-    font-weight: normal;
-    font-size: 15px ;
+    font-family: var(--font-Alpha-slab-one);
+    font-weight: bold;
+    font-size: 16px ;
   }
   
   
   p{
-    font-family: var(--font-oxygen);
+    font-family: var(--font-poppins);
     line-height: 20px;
-    font-size: 15px;
+    font-size: 12px;
   }
   

@@ -1,4 +1,14 @@
 .main__article1{
-    background-image: url("../../../public/img/images/article1/article1-heros2.jpg");
-    
+    background-image: url("../../../public/img/images/article1/article1fond.jpg");
+    margin-top: -25px;
+    height: 130vw;}
+
+.image__article1-milieu{
+   margin-left: 100px;
+
 }
+
+.image__article1-haut{
+    width: 300px;
+}
+

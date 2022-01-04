@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <img src="public/img/icones/icone-menu.png" alt="icone menu">
-        <img src="public/img/icones/logo-accueil-1.png" alt="logo du site">
+    <header class="header">
+        <div class="header__icone-menu" onclick="document.documentElement.classList.toggle('menu-open')"><img src="public/img/icones/icone-menu.png" alt="icone menu"></div>
+        <div class="header__logo"></div><img class="logo__size" src="public/img/icones/logo-accueil-1.png" alt="logo du site">
+
+        <nav class="header__menu__list">
+
+            <ul>
+                <li class="menu__categories"><a href="les-debut-de-la-torche.html">Les débuts de la torche</a></li>
+                <li class="menu__categories"><a href="un-grand-pouvoir-immplique-de-grands-rejet-de-co2.html">Un grand pouvoir implique de grands rejet de CO2</a></li>
+                <li class="menu__categories"><a href="un-espoir-pour-la-planete.html">Un espoir pour la planète</a></li>
+                <li class="menu__categories"><a href="a-propos.html">A propos</a></li>
+                <li class="menu__categories"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <div class="main__article1">
         <h2>Les débuts de la torche</h2>
-        <img src="public/img/images/article1/article1.jpg" alt="image du héro de l'article"></div>
+        <img class="image__article1-haut" src="public/img/images/article1/article1.jpg" alt="image du héro de l'article"></div>
         <h3>Ce voyage spatial va boulverser la vie d’un ado vivant dans une banlieue.
              Et le propulser au devant de la scène. 
         </h3>
@@ -39,7 +51,7 @@
             et ça, dès l’âge de 16 ans. Tous nous fait alors penser à une vie d’adolescent normal ayant été confronté au malheur bien trop jeune.
             A cette époque-là, le jeune Jonnhy Storm ne savait encore pas à quel point tout allait changer pour lui...</p>
 
-            <img src="public/img/images/article1/article1-milieu.jpg" alt="image des 4 fantastiques">
+            <img class="image__article1-milieu" src="public/img/images/article1/article1-milieu.jpg" alt="image des 4 fantastiques">
 
         <h4>Le début d'une grande histoire</h4>
 
