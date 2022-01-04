@@ -1,6 +1,8 @@
 .card__accueil{
     border: 10px solid #081526;
     position: relative;
+    line-height: 15px;
+    margin: 200px 0;
 }
 
 .card__accueil::before{
@@ -19,17 +21,31 @@
 
 .card__accueil p {
     color: white;
+    margin:40px; 
+    margin-right: 80px; 
+    font-size: 15px;
     
 }
 
 .card__accueil h3{
     color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .main__paragraphe-accueil{
-    margin-bottom: 80px;
-    margin-top: 80px;
-    padding: 30px;
+    border: 10px solid #081526;
+    position: relative;
+    line-height: 15px;
+    color:white;
+    margin-top: 30px;
+}
+.main__paragraphe-accueil::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
     background-color: #081526;
-    color: #92B9D2;
 }

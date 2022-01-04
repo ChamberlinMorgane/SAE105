@@ -1,0 +1,40 @@
+	
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+h1 {
+    font-family: var(--font-Alfa-Slab-One);
+    font-weight: normal;
+    font-size: 35px;
+  }
+  
+  
+  h2 {
+    font-family: var(--font-Alfa-Slab-One);
+    font-weight: normal;
+    font-size: 25px;
+  }
+
+  h3{
+      font-family: var(--font-Alfa-Slab-One);
+      font-weight: normal;
+      font-size: 20px;
+  }
+  
+  h4{
+    font-family: var(--font-mulish);
+    font-weight: normal;
+    font-size: 15px ;
+  }
+  
+  
+  p{
+    font-family: var(--font-oxygen);
+    line-height: 20px;
+    font-size: 15px;
+  }
+  
