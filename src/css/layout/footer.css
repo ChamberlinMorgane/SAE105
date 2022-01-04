@@ -1,10 +1,21 @@
 .footer{
     background-color: #D94D1A;
     color: white;
+    
 }
 
 
 .footer__logo-mmi{
     display: flex;
     justify-content: center;
+}
+
+.footer__p{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__icone{
+    padding-left: 50px;
+    padding-top: 20px;
 }

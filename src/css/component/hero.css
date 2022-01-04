@@ -1,0 +1,34 @@
+.hero{
+    height: 800px;
+}
+.hero__title-article{
+    padding-top: 80px;
+}
+
+
+.hero--accueil{
+    background-image: url("../../../public/img/images/accueil/fond-accueil.jpg");
+}
+
+.hero__title{
+    margin: 0;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.hero--paragraphe{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.hero--article1{
+    background-image: url("../../../public/img/images/article1/article1fond.jpg");
+    
+}
+
+.hero--article2{
+   background-image: url("../../../public/img/images/article2/article2-image2.jpg"); 
+}

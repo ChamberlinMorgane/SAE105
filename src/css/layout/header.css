@@ -1,12 +1,19 @@
 .header{
     background-color: #F26B1D;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+.header--accueil {
+    background-color: transparent;
+    color: white; 
 }
 
 .header__logo{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-    z-index: +1;
+    margin-left: calc(50% - 80px);
+    z-index: 2;
 }
 
 .logo__size{
@@ -17,14 +24,10 @@
     padding-top: 20px;
     padding-left: 15px;
     width: 60px;
+    z-index: 2;
 }
 
-.header__accueil{
-    background-image: url("../../../public/img/images/accueil/fond-accueil.jpg");
-    color: white;  
-}
-
-.header__accueil p {
+.header--accueil p {
     display: flex;
     justify-content: center;
 }
