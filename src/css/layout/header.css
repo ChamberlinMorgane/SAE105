@@ -1,7 +1,23 @@
 .header{
-    background-color: orange;
+    background-color: #F26B1D;
 }
 
-.header__icone{
+.header img{
     width: 24px;
 }
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.header__icone-menu{
+    padding-top: 20px;
+}
+
+.header__accueil{
+    background-image: url("../../../public/img/images/accueil/fond-accueil.jpg");
+}
+
+
