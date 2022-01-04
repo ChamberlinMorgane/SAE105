@@ -16,3 +16,20 @@
     background-color: #081526;
     color: white;
 }
+
+.card__accueil p {
+    color: white;
+    
+}
+
+.card__accueil h3{
+    color: white;
+}
+
+.main__paragraphe-accueil{
+    margin-bottom: 80px;
+    margin-top: 80px;
+    padding: 30px;
+    background-color: #081526;
+    color: #92B9D2;
+}
