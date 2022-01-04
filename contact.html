@@ -9,10 +9,20 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__icone-menu"><img src="public/img/icones/icone-menu.png" alt="icone menu"></div>
-        <div class="header__logo"></div><img class="logo__size" src="public/img/icones/logo-accueil-1.png" alt="logo du site">
-    </header>
+        <div class="header__icone-menu" onclick="document.documentElement.classList.toggle('menu-open')"><img src="public/img/icones/icone-menu.png" alt="icone menu"></div>
+        <div class="header__logo"></div><a href="index.html"><img class="logo__size" src="public/img/icones/logo-accueil-1.png" alt="logo du site"></a>
 
+        <nav class="header__menu__list">
+
+            <ul>
+                <li class="menu__categories"><a href="les-debut-de-la-torche.html">Les débuts de la torche</a></li>
+                <li class="menu__categories"><a href="un-grand-pouvoir-immplique-de-grands-rejet-de-co2.html">Un grand pouvoir implique de grands rejet de CO2</a></li>
+                <li class="menu__categories"><a href="un-espoir-pour-la-planete.html">Un espoir pour la planète</a></li>
+                <li class="menu__categories"><a href="a-propos.html">A propos</a></li>
+                <li class="menu__categories"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <form>
             <h2>Contact</h2>
