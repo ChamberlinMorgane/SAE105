@@ -1,0 +1,61 @@
+
+
+form{
+    background-color: white;
+    padding: 30px;
+}
+
+form h2{
+    font-size: 25px ;
+}
+
+form .separation{
+    width: 100%;
+    height: 3px;
+    background-color: black ;
+}
+
+form .corps-formulaire{
+    display:flex;
+    flex-wrap:wrap;
+    margin-bottom: 30px;
+}
+
+form .corps-formulaire .groupe{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form .corps-formulaire .groupe input{
+    margin-top: 5px;
+    padding: 10px; 
+    border: 3px solid black;
+}
+
+form .corps-formulaire .groupe textarea{
+    height: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border: 3px solid black;
+    resize: none;
+    height: 72%;
+}
+
+form .pied-formulaire button {
+    margin-top: 10px;
+    background-color:black;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+
+}
+
+form .pied-formulaire button:hover {
+    transform: scale(1.05);
+    
+}
