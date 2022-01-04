@@ -1,0 +1,9 @@
+.footer{
+    background-color: #D94D1A;
+}
+
+
+.footer__logo-mmi{
+    display: flex;
+    justify-content: center;
+}
