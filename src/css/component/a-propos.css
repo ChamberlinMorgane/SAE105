@@ -1,0 +1,25 @@
+.main__a-propos img{
+width: 100px;
+
+}
+
+.card__autres-projets{
+    border: 3px solid black;
+    width: 90vw;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.card__nom-site {
+    float: right; 
+    margin: -90px 50px -70px 150px; 
+    padding-left: 10px; 
+}
+
+.card__prénom{
+    float: right; 
+    margin: -40px 50px -70px 150px; 
+    padding-left: 10px; 
+
+}

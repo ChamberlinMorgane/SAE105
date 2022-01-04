@@ -62,3 +62,16 @@
   .menu-open .menu__categories:nth-child(n+3) {transition: .4s;;}
   .menu-open .menu__categories:nth-child(n+4) {transition: .45s;;}
   .menu-open .menu__categories:nth-child(n+5) {transition: .5s;;}
+
+  .separation__menu{
+    width: 200%;
+    margin-left: -60px;
+    height: 5px;
+    background-color: #ED752F ;
+    margin-bottom: 30px;
+}
+
+.menu__fleche{
+    float: right;
+    margin-left: 40px;
+}
