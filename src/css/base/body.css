@@ -8,6 +8,7 @@
 
 h1 {
     font-family: var(--font-Alpha-slab-one);
+    color: white;
     font-weight: normal;
     font-size: 35px;
   }
@@ -16,6 +17,7 @@ h1 {
   h2 {
     font-family: var(--font-Alpha-slab-one);
     font-weight: bold;
+    color: #081526;
     font-size: 25px;
   }
 
@@ -59,11 +61,15 @@ h1 {
       position: absolute;
       top: 0;
       left: 0;
-      width: 375px;
+      width: 300px;
       height:323px;
+      margin: 0;
+
       
   }
 
   figcaption{
       background-color: white;
+      margin-top: 0;
+
   }

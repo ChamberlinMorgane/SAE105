@@ -76,6 +76,10 @@ form .pied-formulaire button:hover {
     margin-left: 50px;
 }
 
+.lien__apropos a {
+    text-decoration: none;
+    color: white;
+}
 .lien__apropos img{
     width: 24px;
     float: left;

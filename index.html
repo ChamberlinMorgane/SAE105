@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
+    <script src="//unpkg.com/alpinejs" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -37,7 +38,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main x-data="{firstimgclick : false}" : class="firstimgclick && 'img--click'">
         <div class="hero hero--accueil">
             <h1 class="hero__title">l'embrasement</h1>
             <p class="hero--paragraphe">ou comment vraiment sauver le monde</p>
@@ -56,7 +57,13 @@
             un justicier.</p></div>
 
         <div class="card__accueil">
-        <img src="public/img/images/accueil/image-accueil1.jpg" alt="image article 1 ">
+        <img class="premiereimage" 
+        @click="firstimgclick = !firstimgclick" 
+        : class="firstimgclick && 'img--click'" src="public/img/images/accueil/image-accueil1.jpg" alt="image article 1 ">
+
+        <img class="secondimage"
+        @click="firstimgclick = !firstimgclick"
+        : class="firstimgclick && 'img--click2'" src="public/img/images/accueil/image.jpg" alt="image de jonnhy storm">
         <h3>Les débuts de la torche</h3>
         <p>De jeune ado à super-héros reconnu,
             comment la torche humaine est
@@ -83,8 +90,8 @@
         <img class="footer__icone" src="public/img/icones/email.png" alt="icone email">
         <p class="footer__p">Me contacter</p>
         <div class="separation"></div>
-        <img src="public/img/icones/logommi.png" alt="icone mmi">
-        <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI Montbéliard</p>
+        <img class="footer__logommi" src="public/img/icones/logommi.png" alt="icone mmi">
+        <p class="mentions-legales">Projet réalisé dans le cadre d'un exercice pédagogique au département MMI Montbéliard</p>
 
     </footer>
     
