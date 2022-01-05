@@ -17,16 +17,22 @@ width: 100px;
     
 }
 
+.card__autres-projets a {
+    color: black;
+}
+
 .card__nom-site {
     float: right; 
     margin: -90px 50px -70px 150px; 
     padding-left: 10px; 
+
 }
 
 .card__prénom{
     float: right; 
     margin: -40px 50px -70px 150px; 
     padding-left: 10px; 
+    
 
 }
 
