@@ -15,7 +15,7 @@ h1 {
   
   h2 {
     font-family: var(--font-Alpha-slab-one);
-    font-weight: normal;
+    font-weight: bold;
     font-size: 25px;
   }
 
@@ -37,4 +37,33 @@ h1 {
     line-height: 20px;
     font-size: 12px;
   }
-  
+
+  .images155{
+    width: 6600px;
+	height: 410px;
+	left:0;
+    
+  }
+
+  .carrousel5 {
+      width: 375px;
+      height:410px;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  .image155{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 375px;
+      height:323px;
+      
+  }
+
+  .figcaption{
+      background-color: black;
+  }

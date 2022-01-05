@@ -13,7 +13,7 @@ form h2{
 }
 
 form .separation{
-    width: 100%;
+    width: 50%;
     height: 3px;
     background-color: black ;
 }
@@ -62,4 +62,26 @@ form .pied-formulaire button {
 form .pied-formulaire button:hover {
     transform: scale(1.05);
     
+}
+
+.lien__apropos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color:#F26B1D;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px 20px;
+    width: 70%;
+    margin-left: 50px;
+}
+
+.lien__apropos img{
+    width: 24px;
+    float: left;
+    padding-top: 12px;
+    padding-right: 5px;}
+
+.ligne__contact{
+    margin: 15px;
 }
