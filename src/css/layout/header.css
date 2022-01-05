@@ -5,6 +5,7 @@
     top: 0;
     left: 0;
     width: 100vw;
+    z-index: 3;
 }
 .header--accueil {
     background-color: transparent;
@@ -13,7 +14,7 @@
 
 .header__logo{
     margin-left: calc(50% - 80px);
-    z-index: 2;
+    z-index: 5;
 }
 
 .logo__size{

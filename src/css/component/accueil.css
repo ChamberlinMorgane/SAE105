@@ -3,6 +3,7 @@
     position: relative;
     line-height: 15px;
     margin: 200px 0;
+    overflow: hidden;
 }
 
 .card__accueil::before{
@@ -17,6 +18,7 @@
     transform: rotate(30deg);
     background-color: #081526;
     color: white;
+    
 }
 
 .card__accueil p {
@@ -27,11 +29,16 @@
     
 }
 
+.card__accueil a {
+    text-decoration: none;
+}
+
 .card__accueil h3{
     color: white;
     font-size: 20px;
     display: flex;
     justify-content: center;
+    margin-left: 10px;
 }
 
 .main__paragraphe-accueil{
@@ -50,13 +57,3 @@
     background-color: #081526;
 }
 
-.img--click2{
-    visibility: hidden;
-    z-index: 1;
-}
-
-.secondimage{
-    margin-top: -450px;
-    height: 380px;
-    width: 100%;
-}
