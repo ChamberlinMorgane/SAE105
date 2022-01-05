@@ -13,6 +13,7 @@
     transform: translateX(100vw);
     transition: all .4s;
     z-index: 1;
+    
   }
   
   .menu-open .header__menu__list{

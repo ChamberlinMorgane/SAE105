@@ -39,6 +39,7 @@
     display: flex;
     justify-content: center;
     margin-left: 10px;
+    line-height: 20px;
 }
 
 .main__paragraphe-accueil{
@@ -55,5 +56,10 @@
     position: absolute;
     z-index: -1;
     background-color: #081526;
+}
+
+.fleche__accueil{
+    transform: rotate(90deg);
+    margin-left: 150px;
 }
 

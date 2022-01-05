@@ -8,11 +8,13 @@
 
 }
 
-.image__article1-haut{
-    width: 300px;
-}
-
 .main__article{
     margin: 20px;
+}
+
+.fleche__article{
+    transform: rotate(90deg);
+    margin-left: 150px;
+    margin-bottom: -250px;
 }
 
